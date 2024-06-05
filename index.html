@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Document </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Table Generator</h1>
+        <label for="table-selector">Seçim edin</label>
+        <select id="table-selector" onchange="generateTable()">
+            <option value="3">3x3</option>
+            <option value="6">6x6</option>
+            <option value="9">9x9</option>
+        </select>
+        <div id="table-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
